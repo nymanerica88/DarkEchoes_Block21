@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  width: 250px;
+}
+
+li {
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: rgb(253, 222, 166);
+  border-radius: 4px;
+}
+
+li:hover {
+  background-color: rgb(219, 219, 254);
+}
+
+p {
+  flex: 1;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+}
